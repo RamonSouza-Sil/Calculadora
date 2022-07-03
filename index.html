@@ -14,13 +14,13 @@
 
         <div class="calculadora">
             <h2 id="titulo">Calculadora</h2>
-            <p id="resultado"> teste </p>
+            <p id="resultado">  </p>
             <table>
                 <tr>
-                    <td><button onclick="insert('C')">C</button></td>
-                    <td><button onclick="insert('<')"><</button></td>
+                    <td><button onclick="limpa()">C</button></td>
+                    <td><button onclick="volta()"><</button></td>
                     <td><button onclick="insert('/')">/</button></td>
-                    <td><button onclick="insert('X')">X</button></td>
+                    <td><button onclick="insert('*')">x</button></td>
                 </tr>
                 <tr>
                     <td><button onclick="insert('7')">7</button></td>
@@ -38,7 +38,7 @@
                     <td><button onclick="insert('1')">1</button></td>
                     <td><button onclick="insert('2')">2</button></td>
                     <td><button onclick="insert('3')">3</button></td>
-                    <td rowspan="2"><button style="height: 105px ;" onclick="insert('=')">=</button></td>
+                    <td rowspan="2"><button style="height: 105px ;" onclick="calcular()">=</button></td>
                 </tr>
                 <tr>
                     <td><button onclick="insert('0')">0</button></td>
