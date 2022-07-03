@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', 'sans-serif', 'Lobster';
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(120deg, #ee9d08d8, #2ac6e2d8);
+    color: white;
+}
+
+h1{
+    font-family: 'Lobster';
+}
+.assinatura{
+    text-align: center;
+    
+}
+.calculadora{
+    position: absolute;
+    background-color: transparent;
+    top: 30%;
+    right: 42%;
+    text-align: center;
+    
+}
+
+#resultado{
+    background-color: rgb(230, 222, 222);
+    color: rgb(26, 25, 25);
+    text-align: right;
+    padding: 3px;
+    width: 211px;
+    height: 25px;
+    margin: 5px;
+}
+
+button{
+    background-color: rgb(164, 192, 216);
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    margin: 2px;
+}
+button:hover{
+    background-color:  rgb(154, 201, 243);
+}
+
